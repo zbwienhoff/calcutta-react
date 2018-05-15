@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
+import './button.css';
 
 class Button extends Component {
   render() {
     return (
       <div className="simple-button">
-        <form type="submit" value="Create"></form>
+        <button type="button" className='btn btn-primary'>{this.props.btnValue}</button>
       </div>
     );
   }
