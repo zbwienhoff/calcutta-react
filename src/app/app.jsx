@@ -5,6 +5,7 @@ import './app.css';
 import Button from './button/button';
 import Auth from './auth/auth';
 import Modal from './modal/modal';
+import LoginForm from './loginForm/loginForm';
 
 class App extends Component {
   render() {
@@ -26,6 +27,9 @@ class App extends Component {
         <div className='league-options'>
           <Button btnValue="Join" />
           <Button btnValue="Create" />
+        </div>
+        <div className='container'>
+          <LoginForm />
         </div>
       </div>
     );

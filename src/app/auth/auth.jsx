@@ -3,6 +3,8 @@ import './auth.css'
 import Button from '../button/button';
 
 class Auth extends Component {
+  
+  
   render() {
     return (
       <div className='auth-header'>

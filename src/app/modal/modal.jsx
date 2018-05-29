@@ -4,6 +4,12 @@ import './modal.css';
 import LoginForm from '../loginForm/loginForm';
 
 class Modal extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {show: false};
+  }
+  
   render() {
     if (this.props.modalType === 'login') {
       return (
